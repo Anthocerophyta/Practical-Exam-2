@@ -5,8 +5,8 @@
 using namespace std;
 char table[8][8];
 
-void showTable(char);
-void randomTable(char);
+void showTable(char[][8]);
+void randomTable(char[][8]);
 
 int main(){
 	srand(time(0));	
