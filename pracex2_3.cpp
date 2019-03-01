@@ -14,7 +14,7 @@ int main(){
 	showTable(table);
 }
 
-void showTable(const char table[][8]){
+void showTable(char table[][8]){
 	for(int i = 0; i < 8; i++){
 		for(int j = 0; j < 8; j++){
 			cout << table[i][j] << " ";
